@@ -1,0 +1,33 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local model/data caches
+.hf-cache/
+
+# OS files
+.DS_Store
