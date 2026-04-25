@@ -383,7 +383,7 @@ In RAG, the same pattern is used:
 
 - Semantic search matches meaning, not just keywords.
 - Embeddings convert text into vectors.
-- The notebook uses `all-MiniLM-L6-v2`, which outputs 384-dimensional vectors.
+- The notebook uses `all-MiniLM-L6-v2`, which outputs 384-dimensional vectors. 
 - Pinecone stores vectors and performs similarity search.
 - The same embedding model must be used for both stored data and queries.
 - Metadata is what makes retrieved vectors useful to humans.
